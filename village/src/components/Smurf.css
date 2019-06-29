@@ -1,0 +1,11 @@
+.Smurf {
+    min-width: 200px;
+    border: 1px solid #EBEBEB;
+    background-color: #fff;
+    box-shadow: 5px 5px 15px #E3E3E3;
+    padding: 30px;
+}
+
+.Smurf .circle {
+    
+}
