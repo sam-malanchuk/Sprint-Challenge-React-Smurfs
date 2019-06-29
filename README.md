@@ -29,10 +29,24 @@ In this challenge, you will create a Single Page Application complete with Clien
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Explain the differences between `client-side routing` and `server-side routing`.
+
+Client-side routing allows for the page content to change without refreshing the page because it uses the pre-downloaded routing in the browser. Server-side routing has to send a request to the server and reload the whole page to recieve a response back.  
+
 - [ ] What does HTTP stand for?
+
+HyperText Transfer Protocol
+
 - [ ] What does CRUD stand for?
+
+An application which can Create, Read, Update, Delete items.
+
 - [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+We used the HTTP methods GET, POST, DELETE, PUT through the client Axios.
+
 - [ ] Mention three tools we can use to make AJAX requests.
+
+We used Promises through Axios which were done in React.
 
 
 ## Project Set Up
