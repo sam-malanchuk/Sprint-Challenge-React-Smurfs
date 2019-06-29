@@ -4,12 +4,6 @@ import './Smurfs.css';
 import Smurf from './Smurf';
 
 class Smurfs extends Component {
-  // working on a feature to display different color circles
-  // changeColors = () => {
-  //   console.log("we in change colors");
-  //   return null;
-  // }
-
   render() {
     return (
       <div className="Smurfs">
@@ -26,8 +20,6 @@ class Smurfs extends Component {
               />
             );
           })}
-          
-          {/* {this.changeColors()} */}
         </ul>
       </div>
     );

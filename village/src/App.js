@@ -16,7 +16,6 @@ class App extends Component {
   componentDidMount() {
     axios.get('http://localhost:3333/smurfs')
       .then(response => {
-        console.log(response.data);
         this.setState({
           smurfs: response.data
         });
@@ -38,7 +37,7 @@ class App extends Component {
         <div className="header">
           <h1>The Smurfs</h1>
           <nav>
-            <NavLink to='/'>The Village</NavLink>
+            <NavLink to='/' exact>The Village</NavLink>
             <NavLink to='/add'>Add Smurf</NavLink>
           </nav>
         </div>

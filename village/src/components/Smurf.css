@@ -22,3 +22,29 @@ div.circleI {
     border-radius: 50%;
     font-size: 2.5em;
 }
+
+div.circleI.purple {
+    color: #990033;
+    border-color: #990033;
+}
+
+div.circleI.pink {
+    color: #ffb3ba;
+    border-color: #ffb3ba;
+}
+
+div.circleI.yellow {
+    color: #dead07;
+    border-color: #dead07;
+}
+
+div.circleI.green {
+    color: #00996e;
+    border-color: #00996e;
+}
+
+div.circleI.blue {
+    color: #6a5acd;
+    border-color: #6a5acd;
+}
+
